@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+body{
+    font-family: 'Peddana', serif;
+    font-weight: 900px;
+    font-size: large;
+    
+    float:auto;
+   flex-wrap: wrap;
+  background-image:url("https://img.freepik.com/free-vector/abstract-gray-stripes-background_1035-19089.jpg?size=626&ext=jpg&ga=GA1.2.851887683.1601029513")
+
+
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  flex-wrap: wrap;
+  
+  background-color:chocolate;
+  
+}
+
+h1{
+  padding: 10px;
+}
+
+
+li{
+  float:left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px ;
+
+}
+.img-container{
+  width:100%;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:orange;
+  color:rgb(145, 106, 106);
+}
+.our-content{
+  max-width: 600px;
+  margin: auto;
+
+  
+}
+.active{
+  background-color: orangered;
+}
